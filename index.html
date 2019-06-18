@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <meta charset="utf-8">
+    <title>Movie Tickets</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="header1">Hollywood Theatre</h1>
+      </div>
+      <h2>Now Playing</h2><br>
+      <select id="movie" name="movie">
+        <option value="none">Select movie</option>
+        <option value="benji" id="dog">Benji</option>
+        <option value="grease">Grease</option>
+        <option value="norbit">Norbit</option>
+        <option value="teeth">Teeth</option>
+      </select>
+      <br>
+      <br>
+      <img class="movieposter" id="benji" src="img/benji.jpeg"><br>
+      <img class="movieposter" id="grease" src="img/grease.jpg"><br>
+      <img class="movieposter" id="norbit" src="img/norbit.jpg"><br>
+      <img class="movieposter" id="teeth" src="img/teeth.jpg"><br>
+
+    <form id="form">
+
+      <label for="ticket-senior">Are you a Senior or an Adult?</label>
+      <input name = "age" value = "0" type="radio"> Senior
+      <input name = "age" value = "1" type="radio"> Adult <br>
+
+
+      <label for="">Do you want after or evening?</label>
+      <input type="radio" name="time" value="Day"> Day
+      <input type="radio" name="time" value="Night"> Night
+      <br>
+      <br>
+
+
+
+      <button id="btn1" type="submit" class="btn">Submit!</button><br>
+      <div id="price"></div>
+    </form>
+    <ul id="list">
+
+    </ul>
+  </div>
+  </body>
+</html>
